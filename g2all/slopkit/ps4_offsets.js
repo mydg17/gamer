@@ -316,6 +316,86 @@ export const PS4 = {
         k_sysent_661:                       0x110a760,
         k_jmp_rsi:                          0x47b31,
     },
+    "13.04": {
+        fw_status: "state=proven step10=32/0-x3 reboot=0 webkit=step7-20/20 anchor=findcaller kernel_rvas=verified-on-hardware kpatch=1300.bin-10-sites-verified bug=poops",
+
+        wk_expm1_builtin: 0x2586880,
+        wk_JSFunction_m_function: 0x28,
+
+        wk_RET: 0x004032,
+        wk_LEAVE_RET: 0x01c2f7,
+        wk_POP_RAX_RET: 0x014504,
+        wk_POP_RBX_RET: 0x00b9e8,
+        wk_POP_RCX_RET: 0x01fade,
+        wk_POP_RDI_RET: 0x060480,
+        wk_POP_RDX_RET: 0x1305ba,
+        wk_POP_RSI_RET: 0x07245e,
+        wk_POP_RBP_RET: 0x0040b6,
+        wk_POP_RSP_RET: 0x073017,
+        wk_POP_R8_RET: 0x230cbe1,
+        wk_POP_R9_RET: 0x9df883,
+        wk_POP_R12_RET: 0x242ab15,
+        wk_POP_R13_R14_R15_RET: 0x06047b,
+        wk_POP_R14_RET: 0x0a9e91,
+        wk_POP_R15_RET: 0x06047f,
+
+        pivot_view_sp: 0x38,
+
+        wk_ArrayBuffer_m_impl: 0x10,
+        wk_ArrayBuffer_m_contents_m_data: 0x10,
+
+        wk___imp___error: 0x3cb8cc8,
+        k__error: 0x26420,
+        wk___imp_pthread_create: 0x3cb9c00,
+        k_pthread_create: 0x10110,
+
+        k_stubs: {
+            3: 0x2c170,
+            4: 0x2b8d0,
+            5: 0x2b970,
+            6: 0x2d620,
+            20: 0x2cb70,
+            23: 0x2b6f0,
+            24: 0x2d5e0,
+            25: 0x2b4d0,
+            30: 0x2c9d0,
+            54: 0x2cff0,
+            92: 0x2b650,
+            97: 0x2d050,
+            98: 0x2b5f0,
+            104: 0x2d380,
+            105: 0x2b490,
+            106: 0x2d480,
+            118: 0x2b2f0,
+            135: 0x2c280,
+            240: 0x2d4c0,
+            331: 0x2c6b0,
+            432: 0x2b510,
+            466: 0x2cc70,
+            487: 0x2ba80,
+            488: 0x2bd10,
+            538: 0x2b430,
+            539: 0x2b4f0,
+            544: 0x2beb0,
+            545: 0x2ca30,
+            632: 0x2d090,
+            633: 0x2d840,
+            662: 0x2ccb0,
+            663: 0x2c3e0,
+            664: 0x2d740,
+            666: 0x2d540,
+            669: 0x2bdf0
+        },
+
+        k_scan_stage1: 0x40000,
+        k_scan_stage2: 0x60000,
+
+        k_kl_lock: 0xe6c20,
+
+        k_evf_cv: 0x0,
+        k_sysent_661: 0x110a760,
+        k_jmp_rsi: 0x47b31
+    },
     "12.50": {
         fw_status: "state=UNTESTED-on-hardware "
             + "webkit=addfw-from-decrypted-12.50-modules (15/15 gadgets, 35/35 stubs) "
