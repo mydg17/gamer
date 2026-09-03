@@ -317,7 +317,7 @@ export const PS4 = {
         k_jmp_rsi:                          0x47b31,
     },
     "13.04": {
-        fw_status: "state=proven step10=32/0-x3 reboot=0 webkit=step7-20/20 anchor=findcaller kernel_rvas=verified-on-hardware kpatch=1300.bin-10-sites-verified bug=poops",
+        fw_status: "state=proven step10=32/0-x3 reboot=0 webkit=step7-20/20 anchor=findcaller kernel_rvas=verified-on-hardware kpatch=1304.bin-10-sites-verified bug=poops",
 
         wk_expm1_builtin: 0x2586880,
         wk_JSFunction_m_function: 0x28,
